@@ -4,7 +4,7 @@
 }
 .grid{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-areas: 
     "header"
     "body"
@@ -13,7 +13,7 @@
 }
 .header{
     grid-area: header;
-    
+
 }
 .body{
     grid-area: body;
