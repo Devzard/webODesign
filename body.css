@@ -45,3 +45,23 @@
 .box-6{
     grid-area: box-6;
 }
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "icn icn link-1 link-2"
+    "text text text text"
+    "btn btn btn btn";
+}
+.icon{
+    grid-area: icn;
+}
+.link-1{
+    grid-area: link-1;
+}
+.link-2{
+    grid-area: link-2;
+}
+.btn{
+    grid-area: btn;
+}
