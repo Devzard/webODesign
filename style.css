@@ -10,6 +10,7 @@
     "body"
     "footer";
     justify-content: center;
+    gap: 1.7rem;
 }
 .header{
     grid-area: header;
