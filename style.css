@@ -14,7 +14,7 @@
 }
 .header{
     grid-area: header;
-
+    height: 30rem;
 }
 .body{
     grid-area: body;
